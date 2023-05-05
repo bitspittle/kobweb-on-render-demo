@@ -11,4 +11,8 @@ server:
       script: "build/distributions/todo.js"
       siteRoot: ".kobweb/site"
 
+  cors:
+    hosts:
+      - name: "kobweb-on-render-demo.onrender.com"
+
   port: 8080
